@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  height: 100vh;
+}
+.CashWithdrawal-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 460px;
+}
+
+@media screen and (min-width:768px){
+  .CashWithdrawal-container{
+    width: 50%;
+  }
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.initial-heading {
+  color: #7c3aed;
+}
+.name {
+  margin: 10px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.profile-pic-container {
+  background-color: #c7d2fe;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+.yourbalance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yourbalance-message {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 400;
+}
+.yourbalance-amount {
+  font-size: 30px;
+  font-weight: 600;
+}
+.In-Ruppes-msg {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 400;
+}
+.withdraw-heading {
+  color: #d4d3db;
+  font-size: 23px;
+  font-weight: normal;
+}
+.chooseSum-heading {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 600;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
