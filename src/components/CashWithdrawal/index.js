@@ -4,7 +4,7 @@ import './index.css'
 import DenominationItem from '../DenominationItem'
 
 class CashWithdrawal extends Component {
-  state = {balance: 2000}
+  state = {balance: 20000}
 
   onDebit = value => {
     this.setState(prevState => {
